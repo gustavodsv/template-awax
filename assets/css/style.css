@@ -634,51 +634,84 @@ CSS de áreas específicas
     background-color: #B28756;
 }
 
-
 /**********************
  *                    *
- *      PREMIUM       *
+ *    PREMIUM 2.0     *
  *                    *
  **********************/
 
-.default.light.premium {
+ .default.light.premium {
     background-color: #FFF;
+    height: auto;
 }
 
-.section--premium {
+.section-premium-area-conteudo {
     display: flex;
 }
 
-.section--premium .imgBox--left{
-    width: 550px;
-    text-align: center; 
-    padding-bottom: 20px;
+.section-premium-left {
+    width: 49%;
+    text-align: center;
 }
 
-
-.section--premium .info--right p {
-    text-indent:40px;
+.section-premium-right {
+    width: 50%;
     color: #aeaeae;
+    font-size: 15px;
+    padding-top: 60px;
 }
 
-.section--premium .info--right ul {
+.section-premium-right .section-feature-1 img {
+    margin-bottom: 65px;
+    margin-right: 20px;
+    float: left;
+}
+
+.section-premium-right .section-feature-1 h2 {
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.section-premium-right .section-feature-1 .ul {
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.section-premium-right .section-feature-1 ul {
     list-style-type: "— ";
 }
 
-.section--premium .info--right {
-    font-size: 14px;
-    line-height: 25px;
-    padding-bottom: 20px;
-    width: 550px;
+.section-premium-right .section-feature-2 img {
+    margin-bottom: 30px;
+    margin-right: 20px;
+    float: left;
 }
 
-.section-premium-area hr {
-    border-top: 10px;
-    border-color: #d1d0d0;
+.section-premium-right .section-feature-2 h2 {
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.section-premium-right .section-feature-3 img {
+    margin-bottom: 30px;
+    margin-right: 20px;
+    float: left;
+}
+
+.section-premium-right .section-feature-3 h2 {
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .section-premium-area .sliders-pointers {
-    margin-top: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.section-premium-area .sliders-pointers {
+    margin-top: 20px;
+    padding-top: 30px;
     height: 20px;
     display: flex;
     justify-content: center;
@@ -851,6 +884,49 @@ CSS de áreas específicas
 .section-form .form textarea{
     resize: none;
     width: 500px;  
+    height: 30px;
+}
+
+/**********************
+ *                    *
+ *  LOCALIZAÇÃO 2.0   *
+ *                    *
+ **********************/
+ .localization {
+    background-color: #555;
+}
+
+.section-localization .informations {
+    background-color: #FFF;
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+    width: 50%;
+    height: auto;
+    padding: 15px 0px;
+}
+
+.section-localization .informations .info,.infor {
+    display: flex;
+}
+
+.section-localization .informations .info {
+    margin: 20px 20px;
+}
+
+.section-localization .informations .info .icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.section-localization .informations .info .infor {
+    padding-top: 10px;
+}
+
+.section-localization .informations .info .icon img {
+    margin: 10px 10px;
 }
 
 /**********************
