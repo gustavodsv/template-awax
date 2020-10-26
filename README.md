@@ -24,6 +24,8 @@ PELO COMANDO: git push -u origin master
 
 9. SALVANDO/TRACKED/COMMITED/PUSHED O README.md
 
+10. SALVANDO/TRACKED/COMMITED/PUSHED o index e css [RESPONSIVIDADE PARA TABLET] - 26.OUT.20
+
 *******************************************************************
 // USA-SE "dir our tree /f" PARA VER A ARVORE DA PASTA
 
