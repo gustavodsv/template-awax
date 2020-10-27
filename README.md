@@ -1,5 +1,12 @@
 MEU PRIMEIRO SISTEMA NO GIT
 
+- MY FIRST WEBSITE 100% RESPONSIVE ON GIT
+START: 15.OUT.20
+END: 27.OUT.20
+
+*******************************************************************
+LOGS
+
 1. CRIADA A PASTA "AWAX - B7WEB"
 
 2. CRIADO O REPOSITÓRIO A PARTIR DO CMD. 
@@ -26,37 +33,5 @@ PELO COMANDO: git push -u origin master
 
 10. SALVANDO/TRACKED/COMMITED/PUSHED o index e css [RESPONSIVIDADE PARA TABLET] - 26.OUT.20
 
-*******************************************************************
-// USA-SE "dir our tree /f" PARA VER A ARVORE DA PASTA
-
-// master É A VERSÃO PRINCIPAL DO MEU SISTEMA
-
-//IDENTIFICAR ARQUIVOS NAO TRACKEADOS
-git status
-
-//TRACKED ARQUIVOS
-git add (nome do arquivo)
-git add -A
-
-//COMMITED ARQUIVOS TRACKED
-git commit -m "(mensagem adicionada ao commit)"
-
-//MONITORAR OS COMMITS
-git log
-
-//ADICIONAR UM REPOSITORIO REMOTO EM UM REPOSITORIO LOCAL
-git remote add (NOME DO REPOSITORIO REMOTO) (LINK DO REPOSITORIO REMOTO)
-
-//ALTERAR NOME DO BRANCH - BASH
-git branch -M main
-
-//PARA VISUALIZAR OS REPOSITORIOS ADICIONADOS
-git remote
-git remote -v
-    fetch (remoto to local)
-    push (local to remoto)
-
-//LEVA ARQUIVOS DE ORIGEM LOCAL PARA O REPOSITORIO REMOTO
-git push -u (nome do repositorio remoto ex: origin) (nome do repositorio local ex: master)
-
+11. SALVANDO/TRACKED/COMMITED/PUSHED o index e css [RESPONSIVIDADE PARA CELULAR] - 27.OUT.20
 *******************************************************************

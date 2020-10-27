@@ -795,8 +795,7 @@ CSS de áreas específicas
 
 .default.light.social {
     background-color: #FFF;
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding: 20px 0px;
     border-bottom: 1px solid #aeaeae;
 }
 
@@ -1061,7 +1060,7 @@ CSS de áreas específicas
     display: none;
 }
 
-/*Inicio - Responsividade*/
+/*Inicio - Responsividade for tablet*/
 @media (min-width:450px) and (max-width:800px) {
     .logo {
         margin-left: 30px;
@@ -1070,9 +1069,9 @@ CSS de áreas específicas
         display: block;
         width: 45px;
         margin-right: 30px;
-    }
+    } 
     nav {
-        display: none;
+        display: block;
         position: absolute;
         z-index: 99;
         background-color: rgb(0,0,0,0.93);
@@ -1205,12 +1204,16 @@ CSS de áreas específicas
     .section-footer-left .wrap-test .icons{
         justify-content: center;
     }
+    .section-footer .section-footer-left .icons a{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+    }
     .section-footer-left .wrap-test .tm{
         display: none;
     }
-
-    .section-footer-mid {
-        margin: 0px 300px;
+    .section-footer-mid p{
+        text-align: center;
     }
     .section-footer .section-footer-right {
         margin: 30px 200px;
@@ -1222,3 +1225,255 @@ CSS de áreas específicas
         text-align: center;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Inicio - Responsividade for phone*/
+ @media (max-width:450px) {
+    .logo {
+        margin-left: 30px;
+    }
+    .openMenu {
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgb(0,0,0,0.93);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li a{
+        font-weight: bold;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 20px;
+        border: 0;
+    }
+    .menu li.active a {
+        border: 0;
+        color: #ba8a59;
+    }
+    .menu li a:hover {
+        border: none;
+        color: #ba8a59;
+    }
+    /*banner*/
+    .banner .slidearea h1 {
+        font-size: 30px;
+    }
+    .banner .slidearea h2 {
+        font-size: 15px;
+    }
+
+    /*about us*/
+    .section-aboutus {
+        flex-direction: column;
+    }
+    .section-aboutus--left {
+        margin: 30px 30px 0px 30px;
+    }
+    .section-aboutus--left p {
+        font-size: 13px;
+    }
+    .section-aboutus--right {
+        width: 260px;
+        margin: auto;
+        order: -1;
+    }
+
+    /*services*/
+    .section-services {
+        flex-wrap: wrap;
+    }
+    .section-service {
+        min-width: 100vw;
+        border: 0;
+        margin-bottom:30px;
+    }
+    .section-service:first-child {
+        border-left: none;
+    }
+    /*our projects*/
+    .section-projects--filters {
+        margin:0px 30px 0px 30px;
+    }
+    .section-projects--photo {
+        width: 320px;
+    }
+    .section-projects--photoarea {
+        width: 300px;
+        height: 200px;
+    }
+  
+
+    /*team*/
+    .section-team {
+        max-width: 280px;
+    }
+
+    /*client*/
+    .section-client-area .slidearea {
+        min-width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 30px;
+    }
+    .section-cliente-area .sliders {
+        width: 375px;
+    }
+
+    /* logos */
+    .section-logo-area .section-logos {
+        max-width: 573px;
+        margin: auto;
+        text-align: center;
+    }
+    .section-logo-area .section-logos img {
+        padding: 40px 35px;
+    }
+
+    /* price */
+    .section-price-area .prices{
+        flex-wrap: wrap;
+    }
+
+    /*pemium*/
+    .section-premium-area-conteudo {
+        display: block;
+        width: 375px;
+    }
+    .section-premium-left {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 240px;
+        
+    }
+    .section-premium-left img {
+        width: 100%;
+    }
+    .section-premium-right {
+        width: 375px;
+        padding: 0px 20px 0px 20px;
+    }
+    
+
+    /*facts*/
+    .section-facts-area {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section-facts-area .fact {
+        margin-bottom: 20px;
+        padding: 20px 15px 0px;
+        border-top: 1px solid #ccc;
+    }
+    .section-facts-area .fact:last-child {
+        margin-bottom: 0px;
+    }
+    .section-facts-area .fact:first-child{
+        padding-top: 0px;
+        border: none;
+    }
+
+    /*default light social*/
+    .default.light.social {
+        display: none;
+    }
+    
+    /*contactUs*/
+    .default.light.contactUs {
+        display: block;
+        width: 375px;
+    }
+    .section-form .form {
+        width: 300px;
+    }
+    .section-form .form input, textarea {
+        padding-bottom: 5px;
+    }
+
+    .section-form .form input[value="NAME"]{
+        margin-right: 0px;
+        width: 100%;
+    }
+    .section-form .form input[value="EMAIL"]{
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .section-form .form input[value="SUBJECT"]{
+        margin-top: 0px;
+        width: 100%;
+    }
+    .section-form .form textarea{
+        width: 100%;
+    }
+    
+    /*localization*/
+    .section-map--info {
+        width: auto;
+        margin: 0px 30px;
+    }
+    .section-map--info-item {
+        margin-bottom: 20px;
+    }
+    .section-map--info-item:last-child {
+        margin-bottom: 0px;
+    }
+    /*footer*/
+    .section-footer {
+        display: block;
+    }
+    .section-footer .section-footer-left .wrap-test{
+        display: flex;
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+    }
+    .section-footer-left .wrap-test .icons{
+        justify-content: center;
+        margin-bottom: 20px;
+        width: 375px;
+    }
+    .section-footer-left .wrap-test .icons a:last-child{
+        margin: 0px;
+    }
+    .section-footer-left .wrap-test .tm{
+        display: none;
+    }
+
+    .section-footer-mid p{
+        text-align: center;
+    }
+    .section-footer .section-footer-right {
+        margin: 20px 25px 30px 25px;
+        padding: 20px;
+    }
+    .section-footer .last-tm {
+
+        display: block;
+        text-transform: uppercase;
+        text-align: center;
+    }
+} 
