@@ -34,4 +34,6 @@ PELO COMANDO: git push -u origin master
 10. SALVANDO/TRACKED/COMMITED/PUSHED o index e css [RESPONSIVIDADE PARA TABLET] - 26.OUT.20
 
 11. SALVANDO/TRACKED/COMMITED/PUSHED o index e css [RESPONSIVIDADE PARA CELULAR] - 27.OUT.20
+
+12. SALVANDO/TRACKED/COMMITED/PUSHED melhorias. [modificações feitas no style.css] - 28.out.20
 *******************************************************************
