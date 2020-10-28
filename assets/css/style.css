@@ -536,7 +536,7 @@ CSS de áreas específicas
 }
 
 .section-client--quote{
-    padding-top: 25px;
+    padding: 25px 0px 10px;
 }
 
 .section-client--depo p {
@@ -958,8 +958,6 @@ CSS de áreas específicas
  *       footer       *
  *                    *
  **********************/
-.section-footer-area {
-}
 
 .section-footer{
     display: flex;
@@ -1132,7 +1130,7 @@ CSS de áreas específicas
 
     /*client*/
     .section-client-area .slidearea {
-        min-width: 766px;
+        min-width: 100vw;
     }
 
     /* logos */
@@ -1156,9 +1154,15 @@ CSS de áreas específicas
     }
     .section-premium-left {
         margin: auto;
+        width: 500px;
+    }
+    .section-premium-left img {
+        width: 300px;
     }
     .section-premium-right {
         margin: auto;
+        width: 500px;
+        padding-top: 40px;
     }
 
     /*facts*/
@@ -1216,8 +1220,9 @@ CSS de áreas específicas
         text-align: center;
     }
     .section-footer .section-footer-right {
-        margin: 30px 200px;
         padding: 20px;
+        width: 320px;
+        margin: 20px auto 25px auto;
     }
     .section-footer .last-tm {
         display: block;
@@ -1235,8 +1240,12 @@ CSS de áreas específicas
 
 
 
-
-
+@media (max-width:660) {
+/*default light social*/
+.default.light.social {
+    display: none;
+}
+}
 
 /*Inicio - Responsividade for phone*/
  @media (max-width:450px) {
@@ -1314,7 +1323,7 @@ CSS de áreas específicas
     }
     /*our projects*/
     .section-projects--filters {
-        margin:0px 30px 0px 30px;
+        margin: 0px 50px;
     }
     .section-projects--photo {
         width: 320px;
@@ -1332,9 +1341,7 @@ CSS de áreas específicas
 
     /*client*/
     .section-client-area .slidearea {
-        min-width: 375px;
-        margin-left: auto;
-        margin-right: auto;
+        min-width: 100vw;
         padding: 0px 30px;
     }
     .section-cliente-area .sliders {
@@ -1362,17 +1369,16 @@ CSS de áreas específicas
         width: 375px;
     }
     .section-premium-left {
-        margin: auto;
         margin-bottom: 20px;
-        width: 240px;
+        width: 100vw;
         
     }
     .section-premium-left img {
-        width: 100%;
+        width: 240px;
     }
     .section-premium-right {
-        width: 375px;
-        padding: 0px 20px 0px 20px;
+        width: 100vw;
+        padding: 0px 20px;
     }
     
 
@@ -1402,7 +1408,7 @@ CSS de áreas específicas
     /*contactUs*/
     .default.light.contactUs {
         display: block;
-        width: 375px;
+        width: 100vw;
     }
     .section-form .form {
         width: 300px;
@@ -1454,7 +1460,7 @@ CSS de áreas específicas
     .section-footer-left .wrap-test .icons{
         justify-content: center;
         margin-bottom: 20px;
-        width: 375px;
+        width: 100vw;
     }
     .section-footer-left .wrap-test .icons a:last-child{
         margin: 0px;
