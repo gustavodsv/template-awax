@@ -35,8 +35,8 @@ header {
 .logoimg {
     width: 80px;
     height: 80px;
-    background-color: #B28756;
-    border-radius: 50px;
+    border: 1px solid #FFF;
+    border-radius: 40px;
 }
 
 .logoimg span {
@@ -1250,7 +1250,7 @@ CSS de áreas específicas
 /*Inicio - Responsividade for phone*/
  @media (max-width:450px) {
     .logo {
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .openMenu {
         display: block;
