@@ -2,7 +2,6 @@ MEU PRIMEIRO SISTEMA NO GIT
 
 - MY FIRST WEBSITE 100% RESPONSIVE ON GIT
 START: 15.OUT.20
-END: 27.OUT.20
 
 *******************************************************************
 LOGS
